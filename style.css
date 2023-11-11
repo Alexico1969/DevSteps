@@ -20,6 +20,18 @@ section {
     overflow-y:auto;
 }
 
+li{
+    padding: 3px 20px;
+}
+
+ol li:nth-child(odd) {
+    background-color: #f2f2f2; /* Light gray background for odd items */
+}
+
+ol li:nth-child(even) {
+    background-color: #ffffff; /* White background for even items */
+}
+
 .footer {
     background-color: #333;
     color: white;
